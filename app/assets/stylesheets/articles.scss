@@ -1,3 +1,31 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.text-art {
+  text-align: center;
+  position: relative;
+}
+
+.text-art .button-new {
+  position: absolute;
+  right:0;
+  top: 50%; transform: translateY(-50%);
+}
+
+.text-art h1 {
+	padding: 0 20px;
+  	display: inline-block;
+  	color: blue;
+}
+
+.articles-list {
+	text-align: center; 
+	background-color: lightblue;
+}
+
+.articles-list ul {
+	display: inline-block; 
+	text-align: left;
+}
+
